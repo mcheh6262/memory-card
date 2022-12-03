@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       .image.flip {
+  transform: rotateY(180deg);
+}
+    </style>
+
+    <title>memory card</title>
+    <script src ="game.js"></script> 
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+    <img src="card/oo.jpg" id="image0" onclick="card_click(0)">
+    <img src="card/oo.jpg" id="image1" onclick="card_click(1)">
+    <img src="card/oo.jpg" id="image2" onclick="card_click(2)">
+    <img src="card/oo.jpg" id="image3" onclick="card_click(3)"> <br/>
+    <img src="card/oo.jpg" id="image4" onclick="card_click(4)">
+    <img src="card/oo.jpg" id="image5" onclick="card_click(5)">
+    <img src="card/oo.jpg" id="image6" onclick="card_click(6)">
+    <img src="card/oo.jpg" id="image7" onclick="card_click(7)"> <br/>
+    <img src="card/oo.jpg" id="image8" onclick="card_click(8)">
+    <img src="card/oo.jpg" id="image9" onclick="card_click(9)">
+    <img src="card/oo.jpg" id="image10" onclick="card_click(10)">
+    <img src="card/oo.jpg" id="image11" onclick="card_click(11)"> <br/>
+</div>
+
+    <p id="won">round winer</p> <br/>
+    <button onclick="play()">play</button>
+   
+
+
+    
+</body>
+</html>
